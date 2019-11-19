@@ -60,7 +60,7 @@
         // the behavior described by the `it` string
         var array = [1, 2, 3];
         var value = 4;
-        expect(_.contains(array, value)).to.be.true
+        expect(_.contains(array, value)).to.be.false
         //throw new Error('This test is missing.');
       });
 
